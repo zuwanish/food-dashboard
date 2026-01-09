@@ -42,10 +42,11 @@ export default function OrdersTable({ orders }: OrdersTableProps) {
       <div className="mb-4 flex justify-end">
         <button
           onClick={() => setShowAddForm(true)}
-          className="flex items-center gap-2 rounded-md bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
+          className="flex items-center gap-2 rounded-md bg-blue-600 px-3 py-2 text-sm text-white hover:bg-blue-700 sm:px-4 sm:text-base"
         >
-          <Plus className="h-5 w-5" />
-          Create Order
+          <Plus className="h-4 w-4 sm:h-5 sm:w-5" />
+          <span className="hidden sm:inline">Add Order</span>
+          <span className="sm:hidden">Add</span>
         </button>
       </div>
 

@@ -38,10 +38,10 @@ async function DashboardStats() {
 
 export default function Home() {
   return (
-    <div className="p-8">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
-        <p className="mt-2 text-gray-600">
+    <div className="p-4 sm:p-6 lg:p-8">
+      <div className="mb-6 lg:mb-8">
+        <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl">Dashboard</h1>
+        <p className="mt-2 text-sm text-gray-600 sm:text-base">
           Welcome to your food chain management dashboard
         </p>
       </div>

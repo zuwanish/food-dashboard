@@ -9,10 +9,10 @@ async function OrdersData() {
 
 export default function OrdersPage() {
   return (
-    <div className="p-8">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900">Orders Management</h1>
-        <p className="mt-2 text-gray-600">
+    <div className="p-4 sm:p-6 lg:p-8">
+      <div className="mb-6 lg:mb-8">
+        <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl">Orders Management</h1>
+        <p className="mt-2 text-sm text-gray-600 sm:text-base">
           View and manage all orders
         </p>
       </div>
